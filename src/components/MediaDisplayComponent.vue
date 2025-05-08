@@ -17,7 +17,7 @@
       <img
         v-if="mediatypeIsImage"
         v-show="loadingDone"
-        :src="props.url"
+        :src="props.url.toString()"
         id="img-media-content"
         class="media-content"
         @error="onMediaContentLoadingErrored"
@@ -48,7 +48,7 @@
 import { computed, ref } from 'vue';
 
 interface Props {
-  url: string;
+  url: URL;
 }
 
 const props = withDefaults(defineProps<Props>(), {

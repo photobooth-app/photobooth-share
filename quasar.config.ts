@@ -59,7 +59,7 @@ export default defineConfig((ctx) => {
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      // distDir
+      distDir: '../photobooth-app/src/photobooth/web_share/',
       extendViteConf(viteConf) {
         viteConf.plugins?.push(
           viteSingleFile({

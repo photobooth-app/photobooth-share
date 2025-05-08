@@ -1,5 +1,5 @@
 <template>
-  <div class="full-height items-center" id="media-container">
+  <div id="media-container">
     <!-- ERROR DURING LOADING-->
     <div v-if="loadingErrored">
       <div class="absolute-full flex flex-center text-white">
@@ -8,19 +8,26 @@
     </div>
 
     <!-- DISPLAY MEDIA -->
-    <div v-else>
+    <div class="full-height items-center" v-else>
+      <!-- LOADING PLACEHOLDER -->
+      <div v-if="!loadingDone">
+        <div class="absolute-full flex flex-center text-white">Loading img. Please wait.</div>
+      </div>
       <!-- IMAGE -->
       <img
         v-if="mediatypeIsImage"
+        v-show="loadingDone"
         :src="props.url"
         id="img-media-content"
         class="media-content"
         @error="onMediaContentLoadingErrored"
+        @load="onMediaContentLoadingFinished"
       />
 
       <!-- VIDEO-->
       <video
         v-else
+        v-show="loadingDone"
         :src="`/media/preview/${'nothingyet'}`"
         class="media-content"
         muted
@@ -30,6 +37,8 @@
         controls
         controlslist="nofullscreen nodownload noremoteplayback noplaybackrate"
         disablepictureinpicture
+        @error="onMediaContentLoadingErrored"
+        @load="onMediaContentLoadingFinished"
       ></video>
     </div>
   </div>
@@ -46,8 +55,15 @@ const props = withDefaults(defineProps<Props>(), {
   // todos: () => []
 });
 
+const loadingDone = ref(false);
 const loadingErrored = ref(false);
+
+function onMediaContentLoadingFinished() {
+  console.log('finished');
+  loadingDone.value = true;
+}
 function onMediaContentLoadingErrored() {
+  console.log('errored');
   loadingErrored.value = true;
 }
 

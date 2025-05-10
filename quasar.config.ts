@@ -1,9 +1,9 @@
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file
 
-import { defineConfig } from '#q-app/wrappers';
-import { fileURLToPath } from 'node:url';
-import { viteSingleFile } from 'vite-plugin-singlefile';
+import { defineConfig } from '#q-app/wrappers'
+import { fileURLToPath } from 'node:url'
+import { viteSingleFile } from 'vite-plugin-singlefile'
 
 export default defineConfig((ctx) => {
   return {
@@ -54,16 +54,16 @@ export default defineConfig((ctx) => {
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      distDir: '../photobooth-app/src/photobooth/web_share/',
+      distDir: '../photobooth-app/src/photobooth/web_download/',
       extendViteConf(viteConf) {
         // relative public dir (otherwise assets would load from / always which is unlikely true for the download portal)
         // ref: https://github.com/quasarframework/quasar/discussions/14984#discussioncomment-4245661
-        viteConf.base = '';
+        viteConf.base = ''
         viteConf.plugins?.push(
           viteSingleFile({
             /*  options */
           }),
-        );
+        )
       },
 
       // viteVuePluginOptions: {},
@@ -251,5 +251,5 @@ export default defineConfig((ctx) => {
        */
       extraScripts: [],
     },
-  };
-});
+  }
+})

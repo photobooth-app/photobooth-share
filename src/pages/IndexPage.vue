@@ -52,7 +52,9 @@ const props = withDefaults(defineProps<Props>(), {
 const validatedUrl = computed<URL | null>(() => {
   if (props.url) {
     try {
-      const givenUrl = new URL(props.url, window.location.href) //https://nodejs.org/api/url.html#the-whatwg-url-api
+      const decodedUri = decodeURIComponent(props.url)
+      const givenUrl = new URL(decodedUri, window.location.href) //https://nodejs.org/api/url.html#the-whatwg-url-api
+      console.log(`props.url=${props.url}, decodedUri=${decodedUri}, givenUrl=${givenUrl.toString()}`)
       // givenUrl is the parsed prop.url if absolute (base is ignored in this case.)
       // for relative props.url, the current window location is added.
       // means in the result, when comparing the hostname of window.location and givenUrl, if different its not local and then rejected.

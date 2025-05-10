@@ -108,7 +108,7 @@ watch(
   },
 )
 
-onMounted(async () => {
-  await onUrlInitChanged()
+onMounted(() => {
+  void onUrlInitChanged() // void since we do not want to wait for the mediatype detection. for dl.php it can take some time and nothing is rendered.
 })
 </script>

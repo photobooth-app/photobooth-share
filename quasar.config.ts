@@ -20,16 +20,11 @@ export default defineConfig((ctx) => {
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
-      // 'ionicons-v4',
-      // 'mdi-v7',
-      // 'fontawesome-v6',
-      // 'eva-icons',
-      // 'themify',
-      // 'line-awesome',
-      // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
-
-      'roboto-font', // optional, you are not bound to it
-      'material-icons', // optional, you are not bound to it
+      //
+      // no extra icon lib embedded here. we use the direct import of the SVG so quasar
+      // does not embed the whole font here to reduce the pages size to a minimum.
+      // also we do not use a font but rely totally on local avail fonts.
+      //
     ],
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#build
@@ -52,7 +47,7 @@ export default defineConfig((ctx) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '', // relative public dir, see also extendViteConf
       // analyze: true,
       // env: {},
       // rawDefine: {}
@@ -61,9 +56,12 @@ export default defineConfig((ctx) => {
       // polyfillModulePreload: true,
       distDir: '../photobooth-app/src/photobooth/web_share/',
       extendViteConf(viteConf) {
+        // relative public dir (otherwise assets would load from / always which is unlikely true for the download portal)
+        // ref: https://github.com/quasarframework/quasar/discussions/14984#discussioncomment-4245661
+        viteConf.base = '';
         viteConf.plugins?.push(
           viteSingleFile({
-            /* plugin1 options */
+            /*  options */
           }),
         );
       },
@@ -110,11 +108,20 @@ export default defineConfig((ctx) => {
       https: true,
       open: true, // opens browser window automatically
       port: 8400,
+      proxy: {
+        '/media': {
+          target: 'http://127.0.0.1:8000/',
+          changeOrigin: true,
+        },
+      },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
       config: {
+        notify: {
+          /* look at QuasarConfOptions from the API card */
+        },
         dark: 'auto',
       },
 
@@ -129,12 +136,12 @@ export default defineConfig((ctx) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: [],
+      plugins: ['Notify'],
     },
 
     // animations: 'all', // --- includes all animations
     // https://v2.quasar.dev/options/animations
-    animations: [],
+    animations: ['fadeIn'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#sourcefiles
     // sourceFiles: {

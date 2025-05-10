@@ -1,0 +1,16 @@
+{
+  "Download": "Download",
+  "Share": "Deel",
+  "Failed to load the file.": "Het bestand is niet geladen.",
+  "Refresh the page to try again.": "Vernieuw de pagina om het opnieuw te proberen.",
+  "Refresh": "Vernieuw",
+  "Loading your file. Please wait.": "Je bestand wordt geladen. Even geduld alstublieft.",
+  "Download or share with others:": "Downloaden of delen met anderen:",
+  "Error": "Fout",
+  "Download started. Please wait until it finishes.": "Downloaden is gestart. Wacht tot het klaar is.",
+  "Oops. That did not work out well...": "Oeps. Dat pakte niet goed uit...",
+  "If you think this is wrong, try again.": "Als je denkt dat dit verkeerd is, probeer het dan nog eens.",
+  "For security reasons, the requested URL needs to be on the same host!": "Om veiligheidsredenen moet de opgevraagde URL op dezelfde host staan!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "De opgevraagde URL ({requestedUrl}) moet relatief of absoluut zijn, maar dezelfde hostnaam hebben als deze pagina ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Geen URL gegeven om item weer te geven om te downloaden. Je moet ?url=/mijn/url/naar/img.jpg toevoegen aan het adres."
+}

@@ -1,0 +1,16 @@
+{
+  "Download": "Descărcare",
+  "Share": "Share",
+  "Failed to load the file.": "A eșuat încărcarea fișierului.",
+  "Refresh the page to try again.": "Reîmprospătați pagina pentru a încerca din nou.",
+  "Refresh": "Reîmprospătare",
+  "Loading your file. Please wait.": "Încărcarea fișierului dvs. Vă rugăm să așteptați.",
+  "Download or share with others:": "Descărcați sau partajați cu alții:",
+  "Error": "Eroare",
+  "Download started. Please wait until it finishes.": "Descărcarea a început. Vă rugăm să așteptați până se termină.",
+  "Oops. That did not work out well...": "Oops. Asta nu a ieșit bine...",
+  "If you think this is wrong, try again.": "Dacă credeți că acest lucru este greșit, încercați din nou.",
+  "For security reasons, the requested URL needs to be on the same host!": "Din motive de securitate, URL-ul solicitat trebuie să fie pe aceeași gazdă!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "URL-ul solicitat ({requestedUrl}) trebuie să fie relativ sau absolut, dar același nume de gazdă ca această pagină ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Nu a fost furnizată nicio adresă URL pentru a afișa elementul pentru descărcare. Trebuie să adăugați ?url=/my/url/to/img.jpg la adresă."
+}

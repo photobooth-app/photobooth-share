@@ -1,0 +1,16 @@
+{
+  "Download": "Nedladdningar",
+  "Share": "Aktie",
+  "Failed to load the file.": "Misslyckades med att ladda filen.",
+  "Refresh the page to try again.": "Uppdatera sidan för att försöka igen.",
+  "Refresh": "Uppdatera",
+  "Loading your file. Please wait.": "Laddar din fil. Vänligen vänta.",
+  "Download or share with others:": "Ladda ner eller dela med andra:",
+  "Error": "Fel",
+  "Download started. Please wait until it finishes.": "Nedladdningen har påbörjats. Vänligen vänta tills den är klar.",
+  "Oops. That did not work out well...": "Oops. Det gick inte så bra...",
+  "If you think this is wrong, try again.": "Om du tycker att det är fel, försök igen.",
+  "For security reasons, the requested URL needs to be on the same host!": "Av säkerhetsskäl måste den begärda URL:en finnas på samma värd!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Den begärda URL:en ({requestedUrl}) måste vara relativ eller absolut men ha samma värdnamn som den här sidan ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Ingen URL angiven för att visa objekt för nedladdning. Du måste lägga till ?url=/my/url/to/img.jpg till adressen."
+}

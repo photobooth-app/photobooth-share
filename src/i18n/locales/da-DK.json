@@ -1,0 +1,16 @@
+{
+  "Download": "Download",
+  "Share": "Del",
+  "Failed to load the file.": "Kunne ikke indlæse filen.",
+  "Refresh the page to try again.": "Opdater siden for at prøve igen.",
+  "Refresh": "Opdatering",
+  "Loading your file. Please wait.": "Indlæser din fil. Vent venligst lidt.",
+  "Download or share with others:": "Download eller del med andre:",
+  "Error": "Fejl",
+  "Download started. Please wait until it finishes.": "Download er startet. Vent venligst, indtil den er færdig.",
+  "Oops. That did not work out well...": "Ups. Det gik ikke så godt...",
+  "If you think this is wrong, try again.": "Hvis du synes, det er forkert, så prøv igen.",
+  "For security reasons, the requested URL needs to be on the same host!": "Af sikkerhedsmæssige årsager skal den ønskede URL være på den samme host!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Den ønskede URL ({requestedUrl}) skal være relativ eller absolut, men have samme værtsnavn som denne side ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Der er ikke angivet nogen URL til at vise elementet til download. Du skal tilføje ?url=/my/url/to/img.jpg til adressen."
+}

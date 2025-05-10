@@ -1,0 +1,16 @@
+{
+  "Download": "Download",
+  "Share": "Share",
+  "Failed to load the file.": "Failed to load the file.",
+  "Refresh the page to try again.": "Refresh the page to try again.",
+  "Refresh": "Refresh",
+  "Loading your file. Please wait.": "Loading your file. Please wait.",
+  "Download or share with others:": "Download or share with others:",
+  "Error": "Error",
+  "Download started. Please wait until it finishes.": "Download started. Please wait until it finishes.",
+  "Oops. That did not work out well...": "Oops. That did not work out well...",
+  "If you think this is wrong, try again.": "If you think this is wrong, try again.",
+  "For security reasons, the requested URL needs to be on the same host!": "For security reasons, the requested URL needs to be on the same host!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address."
+}

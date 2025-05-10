@@ -1,0 +1,16 @@
+{
+  "Download": "Letöltés",
+  "Share": "Megosztás",
+  "Failed to load the file.": "Nem sikerült betölteni a fájlt.",
+  "Refresh the page to try again.": "Frissítse az oldalt, hogy újra megpróbálja.",
+  "Refresh": "Frissítés",
+  "Loading your file. Please wait.": "A fájl betöltése. Kérjük, várjon.",
+  "Download or share with others:": "Töltse le vagy ossza meg másokkal:",
+  "Error": "Hiba",
+  "Download started. Please wait until it finishes.": "A letöltés megkezdődött. Kérjük, várjon, amíg befejeződik.",
+  "Oops. That did not work out well...": "Hoppá. Ez nem sikerült jól...",
+  "If you think this is wrong, try again.": "Ha úgy gondolja, hogy ez rossz, próbálja meg újra.",
+  "For security reasons, the requested URL needs to be on the same host!": "Biztonsági okokból a kért URL-nek ugyanazon a tárhelyen kell lennie!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "A kért URL-nek ({requestedUrl}) relatívnak vagy abszolútnak kell lennie, de ugyanannak a hostnévnek, mint ennek az oldalnak ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Nincs megadva URL a letölthető elem megjelenítéséhez. A címhez hozzá kell adnia a ?url=/my/url/to/img.jpg címet."
+}

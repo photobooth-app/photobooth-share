@@ -1,0 +1,16 @@
+{
+  "Download": "Pobierz",
+  "Share": "Udostępnij",
+  "Failed to load the file.": "Nie udało się załadować pliku.",
+  "Refresh the page to try again.": "Odśwież stronę, aby spróbować ponownie.",
+  "Refresh": "Odśwież",
+  "Loading your file. Please wait.": "Ładowanie twojego pliku. Poczekaj.",
+  "Download or share with others:": "Pobierz lub udostępnij innym:",
+  "Error": "Błąd",
+  "Download started. Please wait until it finishes.": "Pobieranie rozpoczęte. Poczekaj, aż się zakończy.",
+  "Oops. That did not work out well...": "Ups. To nie wyszło dobrze...",
+  "If you think this is wrong, try again.": "Jeśli uważasz, że to błąd, spróbuj ponownie.",
+  "For security reasons, the requested URL needs to be on the same host!": "Ze względów bezpieczeństwa żądany adres URL musi znajdować się na tym samym hoście!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Żądany adres URL ({requestedUrl}) musi być względny lub bezwzględny, ale mieć taką samą nazwę hosta jak ta strona ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Nie podano adresu URL do wyświetlenia elementu do pobrania. Musisz dodać ?url=/my/url/to/img.jpg do adresu."
+}

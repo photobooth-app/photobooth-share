@@ -1,0 +1,16 @@
+{
+  "Download": "Lataa",
+  "Share": "Jaa",
+  "Failed to load the file.": "Tiedoston lataaminen epäonnistui.",
+  "Refresh the page to try again.": "Päivitä sivu ja yritä uudelleen.",
+  "Refresh": "Päivitä",
+  "Loading your file. Please wait.": "Lataa tiedostosi. Odota.",
+  "Download or share with others:": "Lataa tai jaa muiden kanssa:",
+  "Error": "Virhe",
+  "Download started. Please wait until it finishes.": "Lataus alkoi. Odota, kunnes se on valmis.",
+  "Oops. That did not work out well...": "Hups. Se ei mennyt hyvin...",
+  "If you think this is wrong, try again.": "Jos tämä on mielestäsi väärin, yritä uudelleen.",
+  "For security reasons, the requested URL needs to be on the same host!": "Turvallisuussyistä pyydetyn URL-osoitteen on oltava samalla isännällä!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Pyydetyn URL-osoitteen ({requestedUrl}) on oltava suhteellinen tai absoluuttinen, mutta sen isäntänimen on oltava sama kuin tämän sivun ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "URL-osoitetta ei ole annettu ladattavan kohteen näyttämiseksi. Sinun on lisättävä osoitteeseen ?url=/my/url/to/img.jpg."
+}

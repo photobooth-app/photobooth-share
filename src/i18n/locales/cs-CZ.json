@@ -1,0 +1,16 @@
+{
+  "Download": "Stáhnout",
+  "Share": "Sdílet",
+  "Failed to load the file.": "Soubor se nepodařilo načíst.",
+  "Refresh the page to try again.": "Obnovte stránku a zkuste to znovu.",
+  "Refresh": "Obnovit",
+  "Loading your file. Please wait.": "Načítání souboru. Počkejte prosím.",
+  "Download or share with others:": "Stáhněte si nebo sdílejte s ostatními:",
+  "Error": "Chyba",
+  "Download started. Please wait until it finishes.": "Stahování začalo. Vyčkejte, dokud nebude dokončeno.",
+  "Oops. That did not work out well...": "Jejda. To nedopadlo dobře...",
+  "If you think this is wrong, try again.": "Pokud si myslíte, že je to špatně, zkuste to znovu.",
+  "For security reasons, the requested URL needs to be on the same host!": "Z bezpečnostních důvodů musí být požadovaná adresa URL na stejném hostiteli!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Požadovaná adresa URL ({requestedUrl}) musí být relativní nebo absolutní, ale musí mít stejný název hostitele jako tato stránka ({requiredUrl}).",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Není uvedena adresa URL pro zobrazení položky ke stažení. Do adresy je třeba přidat ?url=/my/url/to/img.jpg."
+}

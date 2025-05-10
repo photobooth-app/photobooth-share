@@ -1,0 +1,16 @@
+{
+  "Download": "İndir",
+  "Share": "Paylaş",
+  "Failed to load the file.": "Dosya yüklenemedi.",
+  "Refresh the page to try again.": "Tekrar denemek için sayfayı yenileyin.",
+  "Refresh": "Yenile",
+  "Loading your file. Please wait.": "Dosyanız yükleniyor. Lütfen bekleyin.",
+  "Download or share with others:": "İndirin veya başkalarıyla paylaşın:",
+  "Error": "Hata",
+  "Download started. Please wait until it finishes.": "İndirme başladı. Lütfen bitene kadar bekleyin.",
+  "Oops. That did not work out well...": "Oops. Bu pek iyi sonuçlanmadı.",
+  "If you think this is wrong, try again.": "Bunun yanlış olduğunu düşünüyorsanız, tekrar deneyin.",
+  "For security reasons, the requested URL needs to be on the same host!": "Güvenlik nedeniyle, istenen URL'nin aynı ana bilgisayarda olması gerekir!",
+  "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "İstenen URL ({requestedUrl}) göreceli veya mutlak olmalı ancak bu sayfayla ({requiredUrl}) aynı ana bilgisayar adına sahip olmalıdır.",
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Öğeyi indirmek üzere görüntülemek için URL verilmemiş. Adrese ?url=/my/url/to/img.jpg eklemeniz gerekir."
+}

@@ -1,14 +1,14 @@
 <template>
   <div id="media-container">
-    <!-- LOADING -->
-    <div v-if="!loadingDone">
-      <div class="absolute-full flex flex-center column q-gutter-y-lg">
-        <div>
-          <q-spinner size="6em" color="primary" />
+    <!-- LOADING SKELETON -->
+    <transition v-if="!loadingDone" appear enter-active-class="animated fadeIn">
+      <div class="flex flex-center column q-gutter-y-lg">
+        <q-skeleton height="400px" width="600px" class="media-content" />
+        <div class="absolute flex flex-center column q-gutter-y-lg">
+          <div>{{ $t('Loading your file. Please wait.') }}</div>
         </div>
-        <div>{{ $t('Loading your file. Please wait.') }}</div>
       </div>
-    </div>
+    </transition>
 
     <!-- IMAGE -->
     <transition v-if="props.mediaType === MediaTypes.image" appear enter-active-class="animated fadeIn">

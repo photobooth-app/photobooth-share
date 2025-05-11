@@ -3,7 +3,12 @@
 
   <!-- INIT: all on start (or prop.url changed) -->
   <div v-if="mediaStatus == MediaStatus.init">
-    <div class="absolute-full flex flex-center"></div>
+    <div class="absolute-full flex flex-center column q-gutter-y-lg">
+      <div>
+        <q-spinner size="6em" color="primary" />
+      </div>
+      <div>{{ $t('Checking the files availability. Please wait.') }}</div>
+    </div>
   </div>
 
   <!-- UNAVAILABLE: preflight check result is negative, likely the file is not found on server -->

@@ -60,7 +60,6 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const loadingDone = ref(false)
-const loadingErrored = ref(false)
 
 function onMediaContentLoadingFinished() {
   console.log('finished')
@@ -68,7 +67,6 @@ function onMediaContentLoadingFinished() {
 }
 function onMediaContentLoadingErrored() {
   console.log('errored')
-  loadingErrored.value = true
 }
 </script>
 

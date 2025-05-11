@@ -1,19 +1,7 @@
 <template>
-  <!-- <div style="position: absolute; top: 60px; left: 10px">{{ isShareAvailable }} {{}}</div> -->
-
   <div class="button-container q-gutter-x-md">
-    <q-btn class="btn-download" :icon="fasDownload" color="primary" size="xl" @click="doDownload" :label="$t('Download')" no-caps stack />
-    <q-btn
-      v-if="isShareAvailable"
-      size="xl"
-      class="btn-share"
-      :icon="fasShareNodes"
-      @click="doShare"
-      color="primary"
-      :label="$t('Share')"
-      no-caps
-      stack
-    />
+    <q-btn class="btn-download" :icon="mdiDownload" color="primary" size="md" @click="doDownload" :label="$t('Download')" no-caps stack />
+    <q-btn v-if="isShareAvailable" size="md" class="btn-share" :icon="mdiShare" @click="doShare" color="primary" :label="$t('Share')" no-caps stack />
   </div>
 </template>
 
@@ -24,8 +12,8 @@ import { useI18n } from 'vue-i18n'
 <script setup lang="ts">
 import { computed } from 'vue'
 import { mimeToExtension } from 'src/models/types'
-import { fasShareNodes } from '@quasar/extras/fontawesome-v6' //direct imports of icons instead embedding the whole font file
-import { fasDownload } from '@quasar/extras/fontawesome-v6' //direct imports of icons instead embedding the whole font file
+import { mdiShare } from '@quasar/extras/mdi-v7' //direct imports of icons instead embedding the whole font file
+import { mdiDownload } from '@quasar/extras/mdi-v7' //direct imports of icons instead embedding the whole font file
 import { useQuasar } from 'quasar'
 const $q = useQuasar()
 const { t } = useI18n()

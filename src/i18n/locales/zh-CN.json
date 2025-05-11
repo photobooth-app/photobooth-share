@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "如果您认为这是错的，请再试一次。",
   "For security reasons, the requested URL needs to be on the same host!": "出于安全考虑，请求的 URL 必须位于同一主机上！",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "请求的 URL ({requestedUrl}) 必须是相对或绝对 URL，但主机名必须与本页面 ({requiredUrl}) 相同。",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "未提供 URL 以显示供下载的项目。您需要在地址中添加 ?url=/my/url/to/img.jpg。"
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "未提供 URL 以显示供下载的项目。您需要在地址中添加 ?url=/my/url/to/img.jpg。",
+  "Could not download the file. Please try again.": "无法下载文件。请重试。",
+  "Checking the files availability. Please wait.": "检查文件是否可用。请稍候。"
 }

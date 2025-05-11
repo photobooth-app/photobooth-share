@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Αν νομίζετε ότι αυτό είναι λάθος, δοκιμάστε ξανά.",
   "For security reasons, the requested URL needs to be on the same host!": "Για λόγους ασφαλείας, η ζητούμενη διεύθυνση URL πρέπει να βρίσκεται στον ίδιο κεντρικό υπολογιστή!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Η ζητούμενη διεύθυνση URL ({requestedUrl}) πρέπει να είναι σχετική ή απόλυτη, αλλά να έχει το ίδιο όνομα κεντρικού υπολογιστή με αυτή τη σελίδα ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Δεν έχει δοθεί URL για να εμφανιστεί το στοιχείο για λήψη. Πρέπει να προσθέσετε το ?url=/my/url/to/img.jpg στη διεύθυνση."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Δεν έχει δοθεί URL για να εμφανιστεί το στοιχείο για λήψη. Πρέπει να προσθέσετε το ?url=/my/url/to/img.jpg στη διεύθυνση.",
+  "Could not download the file. Please try again.": "Δεν ήταν δυνατή η λήψη του αρχείου. Προσπαθήστε ξανά.",
+  "Checking the files availability. Please wait.": "Έλεγχος της διαθεσιμότητας των αρχείων. Παρακαλώ περιμένετε."
 }

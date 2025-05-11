@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "잘못되었다고 생각되면 다시 시도하세요.",
   "For security reasons, the requested URL needs to be on the same host!": "보안상의 이유로 요청된 URL은 동일한 호스트에 있어야 합니다!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "요청된 URL({requestedUrl})은 이 페이지({requiredUrl})와 같은 상대 또는 절대 호스트명이어야 합니다.",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "다운로드할 항목을 표시할 URL이 없습니다. 주소에 ?url=/my/url/to/img.jpg를 추가해야 합니다."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "다운로드할 항목을 표시할 URL이 없습니다. 주소에 ?url=/my/url/to/img.jpg를 추가해야 합니다.",
+  "Could not download the file. Please try again.": "파일을 다운로드할 수 없습니다. 다시 시도하세요.",
+  "Checking the files availability. Please wait.": "파일 가용성을 확인 중입니다. 잠시만 기다려주세요."
 }

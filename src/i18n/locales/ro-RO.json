@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Dacă credeți că acest lucru este greșit, încercați din nou.",
   "For security reasons, the requested URL needs to be on the same host!": "Din motive de securitate, URL-ul solicitat trebuie să fie pe aceeași gazdă!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "URL-ul solicitat ({requestedUrl}) trebuie să fie relativ sau absolut, dar același nume de gazdă ca această pagină ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Nu a fost furnizată nicio adresă URL pentru a afișa elementul pentru descărcare. Trebuie să adăugați ?url=/my/url/to/img.jpg la adresă."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Nu a fost furnizată nicio adresă URL pentru a afișa elementul pentru descărcare. Trebuie să adăugați ?url=/my/url/to/img.jpg la adresă.",
+  "Could not download the file. Please try again.": "Nu s-a putut descărca fișierul. Vă rugăm să încercați din nou.",
+  "Checking the files availability. Please wait.": "Verificarea disponibilității fișierelor. Vă rugăm să așteptați."
 }

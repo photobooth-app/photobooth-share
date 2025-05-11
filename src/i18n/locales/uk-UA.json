@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Якщо ви вважаєте, що це неправильно, спробуйте ще раз.",
   "For security reasons, the requested URL needs to be on the same host!": "З міркувань безпеки, запитувана URL-адреса повинна знаходитися на тому ж хості!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Запитувана URL-адреса ({requestedUrl}) має бути відносною або абсолютною, але з тим самим іменем хоста, що й ця сторінка ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Немає URL-адреси для відображення елемента для завантаження. Вам потрібно додати до адреси ?url=/my/url/to/img.jpg."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Немає URL-адреси для відображення елемента для завантаження. Вам потрібно додати до адреси ?url=/my/url/to/img.jpg.",
+  "Could not download the file. Please try again.": "Не вдалося завантажити файл. Будь ласка, спробуйте ще раз.",
+  "Checking the files availability. Please wait.": "Перевіряємо доступність файлів. Зачекайте, будь ласка."
 }

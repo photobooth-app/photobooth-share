@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "これが間違っていると思うなら、もう一度試してみてほしい。",
   "For security reasons, the requested URL needs to be on the same host!": "セキュリティ上の理由から、要求されたURLは同じホスト上にある必要があります！",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "リクエストされたURL ({requestedUrl}) は、このページ ({requiredUrl}) と同じホスト名で、相対または絶対でなければなりません。",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "ダウンロード用のアイテムを表示するためのURLが指定されていません。アドレスに ?url=/my/url/to/img.jpg を追加する必要があります。"
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "ダウンロード用のアイテムを表示するためのURLが指定されていません。アドレスに ?url=/my/url/to/img.jpg を追加する必要があります。",
+  "Could not download the file. Please try again.": "ファイルをダウンロードできませんでした。もう一度お試しください。",
+  "Checking the files availability. Please wait.": "ファイルの可用性をチェックしています。しばらくお待ちください。"
 }

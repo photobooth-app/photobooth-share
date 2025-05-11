@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Om du tycker att det är fel, försök igen.",
   "For security reasons, the requested URL needs to be on the same host!": "Av säkerhetsskäl måste den begärda URL:en finnas på samma värd!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Den begärda URL:en ({requestedUrl}) måste vara relativ eller absolut men ha samma värdnamn som den här sidan ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Ingen URL angiven för att visa objekt för nedladdning. Du måste lägga till ?url=/my/url/to/img.jpg till adressen."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Ingen URL angiven för att visa objekt för nedladdning. Du måste lägga till ?url=/my/url/to/img.jpg till adressen.",
+  "Could not download the file. Please try again.": "Det gick inte att ladda ner filen. Vänligen försök igen.",
+  "Checking the files availability. Please wait.": "Kontrollerar filernas tillgänglighet. Vänligen vänta."
 }

@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Als je denkt dat dit verkeerd is, probeer het dan nog eens.",
   "For security reasons, the requested URL needs to be on the same host!": "Om veiligheidsredenen moet de opgevraagde URL op dezelfde host staan!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "De opgevraagde URL ({requestedUrl}) moet relatief of absoluut zijn, maar dezelfde hostnaam hebben als deze pagina ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Geen URL gegeven om item weer te geven om te downloaden. Je moet ?url=/mijn/url/naar/img.jpg toevoegen aan het adres."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Geen URL gegeven om item weer te geven om te downloaden. Je moet ?url=/mijn/url/naar/img.jpg toevoegen aan het adres.",
+  "Could not download the file. Please try again.": "Kon het bestand niet downloaden. Probeer het opnieuw.",
+  "Checking the files availability. Please wait.": "Controleer de beschikbaarheid van de bestanden. Even geduld alstublieft."
 }

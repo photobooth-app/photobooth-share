@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Bunun yanlış olduğunu düşünüyorsanız, tekrar deneyin.",
   "For security reasons, the requested URL needs to be on the same host!": "Güvenlik nedeniyle, istenen URL'nin aynı ana bilgisayarda olması gerekir!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "İstenen URL ({requestedUrl}) göreceli veya mutlak olmalı ancak bu sayfayla ({requiredUrl}) aynı ana bilgisayar adına sahip olmalıdır.",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Öğeyi indirmek üzere görüntülemek için URL verilmemiş. Adrese ?url=/my/url/to/img.jpg eklemeniz gerekir."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Öğeyi indirmek üzere görüntülemek için URL verilmemiş. Adrese ?url=/my/url/to/img.jpg eklemeniz gerekir.",
+  "Could not download the file. Please try again.": "Dosya indirilemedi. Lütfen tekrar deneyin.",
+  "Checking the files availability. Please wait.": "Dosyaların kullanılabilirliği kontrol ediliyor. Lütfen bekleyin."
 }

@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Jos tämä on mielestäsi väärin, yritä uudelleen.",
   "For security reasons, the requested URL needs to be on the same host!": "Turvallisuussyistä pyydetyn URL-osoitteen on oltava samalla isännällä!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Pyydetyn URL-osoitteen ({requestedUrl}) on oltava suhteellinen tai absoluuttinen, mutta sen isäntänimen on oltava sama kuin tämän sivun ({requiredUrl}).",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "URL-osoitetta ei ole annettu ladattavan kohteen näyttämiseksi. Sinun on lisättävä osoitteeseen ?url=/my/url/to/img.jpg."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "URL-osoitetta ei ole annettu ladattavan kohteen näyttämiseksi. Sinun on lisättävä osoitteeseen ?url=/my/url/to/img.jpg.",
+  "Could not download the file. Please try again.": "Tiedostoa ei voitu ladata. Yritä uudelleen.",
+  "Checking the files availability. Please wait.": "Tiedostojen saatavuuden tarkistaminen. Odota."
 }

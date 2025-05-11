@@ -12,5 +12,7 @@
   "If you think this is wrong, try again.": "Wenn du denkst, dass das falsch ist, versuche es noch einmal.",
   "For security reasons, the requested URL needs to be on the same host!": "Aus Sicherheitsgründen muss sich die angeforderte URL auf demselben Host befinden!",
   "The requested URL ({requestedUrl}) must be relative or absolute but same hostname as this page ({requiredUrl}).": "Die angeforderte URL ({requestedUrl}) muss relativ oder absolut sein, aber den gleichen Hostnamen wie diese Seite ({requiredUrl}) haben.",
-  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Es wurde keine URL angegeben, um den Artikel zum Download anzuzeigen. Du musst ?url=/my/url/to/img.jpg an die Adresse anhängen."
+  "No URL given to display item for download. You need to add ?url=/my/url/to/img.jpg to the address.": "Es wurde keine URL angegeben, um den Artikel zum Download anzuzeigen. Du musst ?url=/my/url/to/img.jpg an die Adresse anhängen.",
+  "Could not download the file. Please try again.": "Die Datei konnte nicht heruntergeladen werden. Bitte versuche es noch einmal.",
+  "Checking the files availability. Please wait.": "Ich prüfe die Verfügbarkeit der Dateien. Bitte warte."
 }

@@ -58,6 +58,13 @@ const validatedUrl = computed<URL | null>(() => {
       // givenUrl is the parsed prop.url if absolute (base is ignored in this case.)
       // for relative props.url, the current window location is added.
       // means in the result, when comparing the hostname of window.location and givenUrl, if different its not local and then rejected.
+
+      // in dev mode we want to test also on different hosts, browser might need cors everywhere plugin for hasslefree testing.
+      if (process.env.DEV) {
+        return givenUrl
+      }
+
+      // in PROD env check for correct hostname and return only if check passes
       if (givenUrl.hostname === window.location.hostname) {
         return givenUrl
       }
@@ -65,6 +72,8 @@ const validatedUrl = computed<URL | null>(() => {
       console.warn(e)
     }
   }
+
+  // catch all
   return null
 })
 </script>

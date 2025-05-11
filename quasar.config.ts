@@ -54,7 +54,7 @@ export default defineConfig((ctx) => {
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      distDir: '../photobooth-app/src/photobooth/web_download/',
+      distDir: '../photobooth-app/src/web/download/',
       extendViteConf(viteConf) {
         // relative public dir (otherwise assets would load from / always which is unlikely true for the download portal)
         // ref: https://github.com/quasarframework/quasar/discussions/14984#discussioncomment-4245661

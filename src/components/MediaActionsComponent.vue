@@ -46,10 +46,6 @@ function getExtensionFromContentType(contentType: string | null) {
   if (!contentType) return null
   return mimeToExtension[contentType.toLowerCase()] || null
 }
-function getExtensionFromFilename(filename: string) {
-  if (!filename.includes('.') || filename.endsWith('.')) return ''
-  return filename.slice(filename.lastIndexOf('.') + 1)
-}
 
 async function loadFile() {
   // load the file (again) with the fetch api when the buttons are clicked.
@@ -59,29 +55,23 @@ async function loadFile() {
   const response = await fetch(props.url)
   const blob = await response.blob()
   const contentType = blob.type || null
-  const filenameDerivedFromUrl = props.url.pathname.split('/').pop() || 'unknown'
-  const fileextensionDerivedFromUrl = getExtensionFromFilename(filenameDerivedFromUrl)
   const fileextensionDerivedFromContentType = getExtensionFromContentType(contentType)
 
-  let outFilename = null
-
-  if (fileextensionDerivedFromUrl) {
-    outFilename = filenameDerivedFromUrl
-  } else if (fileextensionDerivedFromContentType) {
-    outFilename = `${filenameDerivedFromUrl}.${fileextensionDerivedFromContentType}`
-  }
-  // alert(`filenameDerivedFromUrl=${filenameDerivedFromUrl}`);
-  // alert(`fileextensionDerivedFromUrl=${fileextensionDerivedFromUrl}`);
-  // alert(`fileextensionDerivedFromContentType=${fileextensionDerivedFromContentType}`);
-  // alert(`contentType=${contentType}`);
-  // alert(`outFilename=${outFilename}`);
-
-  if (!outFilename) {
-    throw new Error('cannot determine file type neither by file extension nor content type')
+  if (!fileextensionDerivedFromContentType) {
+    throw new Error('cannot determine file type by http headers content-type. it is mandatory to use a server providing these information')
   }
 
-  const file = new File([blob], outFilename, { type: contentType || 'application/octet-stream' })
-  return file
+  const outFilename = `download.${fileextensionDerivedFromContentType}`
+
+  console.log(
+    'media file stats:',
+    `props.url=${props.url}`,
+    `fileextensionDerivedFromContentType=${fileextensionDerivedFromContentType}`,
+    `contentType=${contentType}`,
+    `outFilename=${outFilename}`,
+  )
+
+  return new File([blob], outFilename, { type: contentType || 'application/octet-stream' })
 }
 async function doDownload() {
   $q.notify({

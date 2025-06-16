@@ -23,7 +23,7 @@
     "@vueuse/core": "^13.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.14.0",
+    "@eslint/js": "^9.29.0",
     "@intlify/unplugin-vue-i18n": "^6.0.8",
     "@quasar/app-vite": "^2.1.0",
     "@types/node": "^22.15.17",
